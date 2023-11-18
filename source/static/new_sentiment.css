@@ -1,0 +1,36 @@
+#news-sentiment table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#news-sentiment th,
+#news-sentiment td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#news-sentiment th {
+    background-color: #f2f2f2;
+}
+
+.sentiment-bullish {
+    color: green;
+}
+
+.sentiment-somewhat-bullish {
+    color: limegreen;
+}
+
+.sentiment-neutral {
+    color: grey;
+}
+
+.sentiment-somewhat-bearish {
+    color: rgb(239, 65, 12);
+}
+
+.sentiment-bearish {
+    color: red;
+}

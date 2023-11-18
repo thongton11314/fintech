@@ -1,0 +1,29 @@
+The balance sheet provides a snapshot of a company's financial position at a specific point in time. It reflects what a company owns (assets) and owes (liabilities), as well as the residual ownership interest of its shareholders (equity). Here are some of the most important and commonly reported metrics from the balance sheet:
+
+1. **totalAssets**: The sum of all assets owned by the company. It's a top-line measure of the company's size and resources.
+
+2. **totalCurrentAssets**: Assets expected to be converted to cash or used up within a year. This includes items like cash, accounts receivable, and inventory.
+
+3. **cashAndCashEquivalentsAtCarryingValue**: Liquid assets on hand, which can be used for immediate expenses or investments.
+
+4. **inventory**: Goods available for sale or raw materials waiting to be used in production. For manufacturing or retail businesses, managing inventory efficiently is crucial.
+
+5. **currentNetReceivables**: Amounts owed to the company by its customers that are expected to be paid within a year.
+
+6. **totalNonCurrentAssets**: Long-term assets that are not expected to be converted into cash within a year. This includes items like property, plant, equipment, and certain intangible assets.
+
+7. **intangibleAssets**: Non-physical assets, such as patents, copyrights, and brand value.
+
+8. **goodwill**: Represents the premium paid above the fair value of assets during an acquisition. It essentially captures the value of intangibles like brand reputation and customer loyalty.
+
+9. **totalLiabilities**: The sum of all amounts owed by the company, including short-term and long-term debts.
+
+10. **totalCurrentLiabilities**: Obligations the company is expected to settle within a year.
+
+11. **longTermDebt**: Debt obligations due more than one year out.
+
+12. **totalShareholderEquity**: Also known as net assets or owners' equity, it represents the residual ownership interest of the company's shareholders after deducting liabilities from assets.
+
+13. **retainedEarnings**: Cumulative amount of earnings kept by the company over time after paying dividends. It shows how much of the total earnings have been reinvested in the business.
+
+14. **commonStockSharesOutstanding**: Indicates the number of shares currently held by shareholders. This can be used to calculate per-share metrics, such as earnings per share (EPS).

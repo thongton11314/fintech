@@ -1,0 +1,30 @@
+{
+  "metrics": {
+    "current_ratio": 0.0,
+    "debt_to_equity_ratio": 0.0,
+    "quick_ratio": 0.0,
+    "asset_turnover": 0.0,
+    "equity_multiplier": 0.0
+  },
+  "chart_data": {
+    "asset_composition": {
+      "total_current_assets": "0",
+      "total_non_current_assets": "0"
+    },
+    "liabilities_composition": {
+      "total_current_liabilities": "0",
+      "total_non_current_liabilities": "0"
+    },
+    "debt_structure": {
+      "short_term_debt": "0",
+      "long_term_debt": "0"
+    }
+  },
+  "insights": {
+    "liquidity_position": "Sample liquidity insight.",
+    "assets_efficiency": "Sample asset efficiency insight.",
+    "capital_structure": "Sample capital structure insight.",
+    "inventory_management": "Sample inventory management insight.",
+    "overall_solvency": "Sample overall solvency insight."
+  }
+}

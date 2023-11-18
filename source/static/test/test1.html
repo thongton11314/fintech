@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display JSON Content</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #suggestions {
+            border: 1px solid #000;
+            display: none;
+            position: absolute;
+        }
+
+        #suggestions div {
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        #suggestions div:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input type="text" id="search" placeholder="Type to search...">
+    <div id="suggestions"></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Exchange</th>
+                <th>Currency</th>
+                <th>Type</th>
+                <th>ISIN</th>
+            </tr>
+        </thead>
+        <tbody id="content"></tbody>
+    </table>
+
+    <script type="text/javascript">
+        var jsonData = [];  // This will hold your data after it's loaded
+
+        function handleJSONP(jsonData) {
+            var contentTbody = document.getElementById('content');
+
+            jsonData.forEach(function (item) {
+                var row = document.createElement('tr');
+
+                for (var key in item) {
+                    var cell = document.createElement('td');
+                    cell.textContent = item[key];
+                    row.appendChild(cell);
+                }
+
+                contentTbody.appendChild(row);
+            });
+            document.getElementById('search').addEventListener('input', searchSuggestions);  // Add event listener here
+        }
+
+        function searchSuggestions() {
+            var input = document.getElementById('search');
+            var filter = input.value.toUpperCase();
+            var suggestionsBox = document.getElementById('suggestions');
+            suggestionsBox.innerHTML = '';  // Clear any existing suggestions
+
+            if (filter.length === 0) {
+                suggestionsBox.style.display = 'none';  // Hide suggestions box if input is empty
+                return;
+            }
+
+            jsonData.forEach(function (item) {
+                if (item.Name.toUpperCase().indexOf(filter) > -1) {
+                    var suggestion = document.createElement('div');
+                    suggestion.textContent = item.Name;
+                    suggestion.onclick = function () {
+                        input.value = this.textContent;
+                        suggestionsBox.style.display = 'none';
+                    };
+                    suggestionsBox.appendChild(suggestion);
+                }
+            });
+
+            suggestionsBox.style.display = 'block';  // Show suggestions box
+        }
+    </script>
+    <script src="symbols.jsonp" type="text/javascript"></script>
+
+</body>
+
+</html>

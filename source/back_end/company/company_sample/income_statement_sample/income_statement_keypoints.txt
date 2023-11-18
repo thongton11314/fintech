@@ -1,0 +1,26 @@
+
+Financial reports often contain a vast amount of data, but not all metrics are equally relevant for every situation. The most meaningful and commonly reported financial metrics vary based on the audience and the purpose of the report. For general financial analysis and investor presentations, the following are often considered among the most critical:
+
+1. **totalRevenue**: Represents the total sales and other revenue for the period. It's the starting point for most profitability metrics.
+
+2. **grossProfit**: This indicates the profit a company makes after subtracting the costs directly associated with producing the goods or services sold. It provides a measure of the basic profitability of a company's core activities, excluding indirect costs.
+
+3. **operatingIncome**: Also known as operating profit, this metric deducts all operating expenses (like rent, salaries, depreciation, etc.) from gross profit. It represents the profit from a company's core business operations.
+
+4. **netIncome**: Represents the total profit of a company after all expenses, including non-operating expenses and taxes, have been deducted. This is often referred to as the "bottom line" and is crucial for understanding the company's overall profitability.
+
+5. **ebitda**: Stands for Earnings Before Interest, Taxes, Depreciation, and Amortization. This is a popular metric because it provides a clearer picture of a company's operational profitability by excluding non-operating expenses and non-cash charges.
+
+6. **researchAndDevelopment**: This is particularly important for technology, pharmaceutical, and other R&D-intensive industries. It indicates how much a company is investing in creating new products or improving existing ones.
+
+7. **sellingGeneralAndAdministrative**: These are the main operating costs that don't tie directly to production. For some businesses, keeping these costs under control is crucial to maintaining profitability.
+
+8. **netInterestIncome** or **interestAndDebtExpense**: Indicates how much a company pays in interest versus how much it earns, which can be important for assessing the cost and structure of a company's debt.
+
+9. **incomeBeforeTax** and **incomeTaxExpense**: These give an understanding of a company's tax structure and efficiency.
+
+10. **comprehensiveIncomeNetOfTax**: Provides a broader measure of income that includes non-operational and non-recurring items.
+
+When analyzing a company's financial health or making investment decisions, it's crucial to understand the industry context. For example, high R&D expenses might be expected and seen as a positive sign in a biotech company, while they might be viewed differently in a different industry.
+
+Also, remember that while these metrics are useful, they should be used in conjunction with other financial data, qualitative information, and industry benchmarks for a holistic analysis.

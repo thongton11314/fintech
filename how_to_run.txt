@@ -1,0 +1,4 @@
+# Make sure export APIs
+
+# Make sure at this directory
+/projects/fintech/source$ python3 flask_apis.py

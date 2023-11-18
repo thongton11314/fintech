@@ -1,0 +1,13 @@
+You are assigned to generate a unique insight, titled {insight_name}, regarding the company based on the {type_of_data} data provided below:
+----
+{data}
+----
+
+Guidelines:
+- Steer clear of stating the obvious.
+- Utilize the $ symbol for monetary figures, and round to the nearest million or billion as needed.
+
+Please follow the instructions outlined below to formulate the insight:
+----
+{prompt_description}
+----

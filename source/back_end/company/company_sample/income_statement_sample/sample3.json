@@ -1,0 +1,17 @@
+************
+You are tasked with generating profit_retention insight about the company for the income statement data given below:
+
+----
+{'annual_report_data': {'fiscalDateEnding': '2022-09-30', 'reportedCurrency': 'USD', 'grossProfit': '170782000000', 'totalRevenue': '391397000000', 'costOfRevenue': '248640000000', 'costofGoodsAndServicesSold': '223546000000', 'operatingIncome': '119437000000', 'sellingGeneralAndAdministrative': '25094000000', 'researchAndDevelopment': '26251000000', 'operatingExpenses': '51345000000', 'investmentIncomeNet': '2825000000', 'netInterestIncome': '-2931000000', 'interestIncome': '106000000', 'interestExpense': '2931000000', 'nonInterestIncome': '394328000000', 'otherNonOperatingIncome': '-228000000', 'depreciation': '8700000000', 'depreciationAndAmortization': '11104000000', 'incomeBeforeTax': '119103000000', 'incomeTaxExpense': '19300000000', 'interestAndDebtExpense': '2931000000', 'netIncomeFromContinuingOperations': '99803000000', 'comprehensiveIncomeNetOfTax': '88531000000', 'ebit': '122034000000', 'ebitda': '130541000000', 'netIncome': '99803000000'}, 'historical_data': {'dates': ['2018-09-30', '2019-09-30', '2020-09-30', '2021-09-30', '2022-09-30'], 'total_revenue': ['265595000000', '256598000000', '271642000000', '363172000000', '391397000000'], 'net_income': ['59531000000', '55256000000', '57411000000', '94680000000', '99803000000'], 'interest_expense': ['3240000000', '3576000000', '2873000000', '2645000000', '2931000000']}}
+----
+
+Rules:
+The insight must not state the obvious.
+Always use $ symbol for money values, and round it off to millions or billions accordingly
+
+Generate the insight as per the given description:
+
+----
+Must be more than 40 words. Insight into the company's net income, showcasing the amount retained post all expenses, which can be reinvested or distributed.
+----
+************

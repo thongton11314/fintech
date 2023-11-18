@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "title": "Sample News Title 1",
+      "url": "https://www.sample.com/news1",
+      "authors": ["Author1", "Author2"],
+      "topics": ["Topic1", "Topic2"],
+      "sentiment_score": 0.123456,
+      "sentiment_label": "Neutral"
+    },
+    {
+      "title": "Sample News Title 2",
+      "url": "https://www.sample.com/news2",
+      "authors": ["Author3", "Author4"],
+      "topics": ["Topic3", "Topic4"],
+      "sentiment_score": -0.123456,
+      "sentiment_label": "Somewhat-Bearish"
+    }
+  ],
+  "mean_sentiment_score": 0.0,
+  "mean_sentiment_class": "Neutral"
+}
